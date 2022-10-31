@@ -1,0 +1,187 @@
+/*navigation bar styling */
+.navbar-color{
+    background-color: #B1B2FF;
+}
+
+/*title section styling */
+#title{
+    padding: 10% 0 0 0;
+    background-color: #B1B2FF;
+    position: relative;
+}
+
+.upper-cloud{
+    width: 10%;
+    position: relative;
+    padding: 1.2% 0;
+    left: 16%;
+
+}
+.lower-cloud{
+    width: 10%;
+    position: absolute;
+    left: 15%;
+}
+.mountain-img{
+    width: 30vw;
+    padding-top:2%
+}
+.title-heading{
+    font-family: 'Sacramento', cursive;
+    font-size:5vw;
+    padding: 3% 0;
+    margin-bottom: 0;
+}
+.title-description{
+    color: #5020cc;
+    font-size: 2vw;
+}
+
+
+/* About section styling */
+.profile-img{
+    width: 22%;
+}
+.profile-heading{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #5020cc;
+}
+.profile-description{
+    font-family: 'Merriweather-bolder', serif;
+    font-size: 20px;
+}
+/* horizontal break styling for all  */
+hr{
+    border-top:8px dotted #1f2084;
+    width: 88px;
+    margin: 85px auto;
+}
+
+/*my skill section styling*/
+.skill-heading{
+    padding:3rem 0rem;
+    font-size: 35px;
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #5020cc;
+}
+.skill-1{
+    text-align: right;
+    padding-right: 3rem;
+}
+.skill-2{
+    text-align: left;
+    padding:1rem 4% 0 1rem;
+    font-family: 'Merriweather-bolder', serif;
+    font-size: 19px;
+}
+.skill-img{
+    width: 13vw;
+}
+
+
+/*hobbies Section styling*/
+.hobbies-heading{
+    padding:3rem 0rem;
+    font-size: 35px;
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #5020cc;
+}
+.hobbies-1{
+    text-align: right;
+    padding:2rem 1rem 0 0;
+    font-family: 'Merriweather-bolder', serif;
+    font-size: 19px;
+}
+.hobbies-2{
+    text-align: left;
+    padding:0rem 0 0 3rem;
+}
+.hobbies-img{
+    width: 13vw;
+}
+
+/*Contact me styling */
+
+.contact-heading{
+    font-family: 'Montserrat-bolder', sans-serif;
+    color: #5020cc;
+    font-size: 2rem;
+}
+.contact-description-1{
+    font-family: 'Merriweather-bolder', serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+.contact-description-2{
+    font-family: 'Merriweather-bold', serif;
+    font-size: 19px;
+}
+
+
+/* footer section styling */
+#footer{
+    margin-top: 9%;
+    padding:5% 0 5% 0;
+    background-color: #5020cc;
+}
+.footer-link{
+    padding: 0%  1.5% 2% 1.5%;
+    color:#fff;
+}
+.footer-description{
+    margin-top:2%;
+    font-size: 18px;
+}
+/* media queries and responsive design styling */
+
+@media screen and (max-width : 500px) {
+    .title-heading{
+        font-size: 40px;
+    }
+    .title-description{
+        font-size: 16px;
+    }
+    .upper-cloud, .lower-cloud{
+        width: 22vw;
+    }
+    .mountain-img{
+        width: 45vw;
+    }
+    .profile-img{
+        width: 52vw;
+    }
+    .profile-description{
+        font-size: 15px;
+    }
+    hr{
+        border-top:8px dotted #1f2084;
+        width: 50px;
+        margin: 45px auto;
+    }
+    .skill-img{
+        width: 39vw;
+    }
+    .skill-1{
+        text-align: center;
+        padding-left: 3rem;
+    }
+    .skill-2{
+        text-align: center;
+    }
+
+    .hobbies-heading{
+        padding: 2rem 0 0 0rem;
+    }
+    .hobbies-img{
+        width: 45vw;
+        padding:0;
+    }
+    .hobbies-1{
+        text-align: center;
+        padding: 2rem 1rem 0 0;
+    }
+    .hobbies-2{
+        text-align: center;
+        padding: 0;
+    }
+}
